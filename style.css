@@ -1,0 +1,92 @@
+body {
+    background: rgb(255, 153, 51);
+    background: linear-gradient(90deg, rgba(255, 153, 51, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(19, 136, 8, 1) 100%);
+}
+
+#main {
+    width: 50%;
+    max-width: 750px;
+    min-width: 480px;
+    margin: 20px auto;
+    border-top: 20px groove #ff9933;
+    border-right: 20px groove #008000;
+    border-bottom: 20px groove #008000;
+    border-left: 20px groove #ff9933;
+
+}
+
+h1 {
+    background-color: #00DBDE;
+    background-image: linear-gradient(300deg, #00DBDE 0%, #FC00FF 100%);
+    font-family: Georgia, serif;
+    font-size: 25px;
+    color: #000000;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#gamezone {
+    box-sizing: border-box;
+    text-align: center;
+    /* background: rgb(34, 193, 195); */
+    /* background: radial-gradient(circle, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%); */
+    font-size: 25px;
+    position: relative;
+
+}
+
+#gamezone::before {
+    content: "";
+    background-image: url(https://cdn.pixabay.com/photo/2018/08/14/06/41/indian-flag-3604785_1280.png);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+#guessnumber {
+    font-size: 35px;
+    font-style: oblique;
+    color: green;
+    font-weight: 900;
+    border-left: 2px solid green;
+    border-right: 2px solid green;
+    border-radius: 50px;
+    padding: 0 5px;
+
+}
+
+#InputField {
+    color: #000;
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    border-style: none;
+    margin-top: 20px;
+    font-size: 40px;
+    border: 5px solid #14727d;
+    text-align: center;
+}
+
+#submitnumber {
+    background-color: greenyellow;
+    color: green;
+    width: 220px;
+    height: 35px;
+    border-radius: 20px;
+    font-size: 30px;
+    border-style: double;
+    margin-top: 20px;
+}
